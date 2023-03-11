@@ -1,0 +1,128 @@
+/*exemplo 1
+let hora = 10;
+if(hora < 12){
+    console.log("Bom dia meu povo!")
+} else{
+    console.log("Boa tarde!")
+}*/
+
+/*EXERCÍCIO 1******************************************************************************************************
+Faça:
+Declare um valor numérico;
+Vamos analisar se esse número é ou não maior que 10:
+a) Se for, vamos escrever na tela a seguinte frase: "Esse número é maior que 10";
+b) Se não for, vamos escrever na tela a seguinte frase: "Esse número é menor que 10".
+Maaasss.. e se esse número for igual a 10?
+
+let numero = 16;
+
+if(numero > 10){
+    console.log("Esse número é maior que 10");
+} else if(numero == 10){
+     console.log("Esse número é igual a 10")
+} else {
+    console.log("Esse número é menor que 10")
+}*/
+
+/*EXEMPLO 2********************************************************************************************************
+Escreva o código abaixo e em seguida salve seu arquivo
+
+let a = 20;
+    b = 20;
+
+if( a > b){
+    console.log(`a é maior que b`);
+} else if( a < b){
+    console.log(`a é menor que b`);
+} else {
+    console.log(`a é igual a b`);
+}*/
+
+/*EXERCÍCIO - BORA PRATICAR****************************************************************************************
+Faça:
+Crie um programa que receba 2 números, calcule a soma deles e em seguida verifique se essa soma é maior que 100.
+a) Caso seja maior que 100, retorne "Esse número é maior que 100"; b) Caso seja igual a 100, retorne "Bingo! Deu 100!";
+c) Caso seja menor que 100, retorne "Esse número é menor que 100".
+
+let numero1 = 50;
+let numero2 = 50;
+let soma = (numero1 + numero2);
+
+if(soma > 100){
+    console.log(`A soma resultou em: ${soma}! E este valor é maior que 100!`);
+} else if(soma == 100){
+    console.log(`Bingo! Deu 100!`);
+} else {
+    console.log(`A soma resultou em: ${soma}! E este valor é menor que 100!`)
+}*/
+
+/*QUESTÃO EXTRA - SEMÁFORO PARA PEDESTRES ATRAVESSAREM*********************************************************
+
+let semaforo = "amarelo";
+ 
+if(semaforo == "verde"){
+    console.log(`O sinal está ${semaforo}! Pode passar!`);
+} else if(semaforo == "vermelho"){
+    console.log(`O sinal está ${semaforo}! Aguarde sua vez ;)`);
+} else {
+    console.log(`O sinal está ${semaforo}! Prestatenção na lifee, viu?!`);
+}
+
+//OOOOU: ESCOLHER A MESMA STRING PARA CHAMAR A MENSAGEM A SER IMPRESSA, E DAR O CONSOLE.LOG FORA DO ESCOPO.
+Crie uma constante para o semaforo, e ao modificar a cor dele, modifique a mensagem para as passageiras atravessarem.
+let semaforo = "vermelho";
+
+if(semaforo == "verde"){
+    semaforo = (`O sinal está ${semaforo}! Pode passar!`);
+} else if(semaforo == "vermelho"){
+    semaforo = (`O sinal está ${semaforo}! Aguarde sua vez ;)`);
+} else {
+    semaforo = (`O sinal está ${semaforo}! Prestatenção na lifeee, viu?!`);
+}
+console.log(semaforo)*/
+
+/*QUESTÃO EXTRA - CONFERIR ALTA DOS PREÇOS NO MERCADO**************************************************************
+Declare o preço do leite em R$5.50 e modifique os valores para imprimir mensagens de alta ou baixa nos preços.
+
+let leite = "R$5.49";
+
+if(leite > "R$5.50"){
+    console.log(`O preço do leite aumentou! Antes custava R$5.50, e agora está custando ${leite}`);
+} else if(leite < "R$5.50"){
+    console.log(`Oh benção! O leite baixou de preço de R$5.50 para ${leite}`);
+} else {
+    console.log(`Pelo menos a inflação estacionou! O preço do leite continua em ${leite}`);
+}
+
+//OOOOU:
+let leite = "R$6.50";
+
+if(leite > "R$5.50"){
+    leite = (`O preço do leite aumentou! Antes custava R$5.50, e agora está custando ${leite}`);
+} else if(leite < "R$5.50"){
+    leite = (`Oh benção! O leite baixou de preço de R$5.50 para ${leite}`);
+} else {
+    leite = (`Pelo menos a inflação estacionou! O preço do leite continua em ${leite}`);
+}
+console.log(leite)*/
+
+/* QUESTÃO EXTRA - VALIDAR DADOS DE USUÁRIA************************************************************************
+Declare duas variáveis com os dados de email e senha para realizar login, e informe que a validação funcionou apenas
+se os dados da usuária forem: email - giselesilva0807@hotmail.com, e a senha: 123456.
+*/
+
+let email = "gisele0807@hotmail.com";
+let senha = 12345;
+
+if(email === "giselesilva0807@hotmail.com" && senha === 123456){
+    console.log(`Usuária autenticada com sucesso!`);
+} else if(email !== "giselesilva0807@hotmail.com" && senha !== 123456){
+    console.log(`Email e senha incorretos! Tente novamente!`);
+} else if( email === "giselesilva0807@hotmail.com" && senha != 123456){
+    console.log(`Sua senha está incorreta, reveja ;)`);
+} else if(email !== "giselesilva0807@hotmail.com" && senha === 123456){
+    console.log(`Ajuste seu email!`)
+} else { 
+    console.log(`Erro em alguma coisa, braseel!`)
+}
+

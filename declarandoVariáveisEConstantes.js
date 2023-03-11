@@ -13,13 +13,15 @@ let pontosTurísticos = "Marco Zero, Buraco da véa, Armazém do Campo, Minha ca
 const capitalPais = "Brasília - DF";
 const quantidadeEstados = 27;
 const paisAmericaLatina = "Sulamericanos";
+
 console.log(nomePais);
 console.log(pontosTurísticos);
 console.log(capitalPais);
 console.log(quantidadeEstados);
 console.log(paisAmericaLatina);
 
-let pontosTuristicos = "Mercado Ver-o-peso";
+//para modificar uma variável de mesmo nome é só não acrescentar LET novamente
+pontosTuristicos = "Mercado Ver-o-peso";
 console.log(pontosTuristicos)*/
 
 
